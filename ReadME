@@ -1,0 +1,3 @@
+The main difference between TCP and UDP is TCP sends an acknowledgement. There is a handshake between client and the server.
+In this project I have tried to send Negative acknowledgement(NACK) for every packet dropped for an UDP. Drawback of this project is it has heavy 
+latency however advantage is, two computers behind a NAT can communicate easily.
